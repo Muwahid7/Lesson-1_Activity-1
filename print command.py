@@ -1,0 +1,5 @@
+print("Hello World")
+print(75)
+print("\n hi")
+print("Hello",(77))
+print("world",end=":")
