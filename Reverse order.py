@@ -1,5 +1,5 @@
-a = int(input("Enter a value"))
-print("numbers from {0} to {1} :".format(a,1))
-for i in range(a,0,-1):
-    print(i)
-    
+Number=int(input("Enter a Number"))
+i=0
+while(i<len(str(Number))):
+    print(len(str(Number)))
+    break
