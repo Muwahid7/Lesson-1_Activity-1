@@ -1,0 +1,11 @@
+tuplex = ("tuple",23,23.26,True)
+print(tuplex)
+tuplex = (26,12,13,45,23,28)
+print(tuplex)
+tuplex = tuplex + (999,)
+print(tuplex)
+tuple_1 = (55,55,66,66)
+print(tuple_1.count(55))
+tuplex = (1,2,3,4,5,6,7,9,8)
+_slice = tuplex[3:8]
+print(_slice)
