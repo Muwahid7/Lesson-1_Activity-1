@@ -1,8 +1,7 @@
-test_dict = {'Codingal' : 2,'is':2,'best' : 2, 'for' : 2,'Coding' : 1}
-print("The original dictionary"+str(test_dict))
-k = 2
-res = 0
-for key in test_dict:
-    if test_dict[key]==k:
-        res=res+1
-print("Frequency of k is",str(res))
+test_dict = {'Codingal': 3, 'is': 2, 'best': 2, 'for': 2, 'Coding': 1}
+print("Test Dictionary:", test_dict)
+key = input("Enter the word you want to check the frequency for: ")
+if key in test_dict:
+    print(f"The frequency of {key} is:", test_dict[key])
+else:
+    print(f"{key} is not found in the dictionary.")
